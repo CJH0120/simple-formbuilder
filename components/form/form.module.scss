@@ -1,0 +1,109 @@
+.form {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	max-width: 777px;
+	gap: 2rem;
+	min-width: 320px;
+	background-color: #f8f9fa;
+	padding: 25px 15px;
+	.header {
+		width: 100%;
+	}
+	.head {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+
+		.head_text_wrap {
+			padding: 1.3rem;
+			z-index: 10;
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			width: 100%;
+			max-width: 777px;
+			border-radius: 4px;
+			box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+				rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+			background: #fff;
+		}
+	}
+	.form_wrap {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		border-radius: 4px;
+		max-width: 777px;
+		z-index: 10;
+	}
+	.form_items {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+}
+
+.form_item_wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	background-color: #fff;
+	border-radius: 4px;
+	border: 1px solid;
+	border-color: rgb(218, 220, 224);
+	padding: 1.3rem;
+	.from_item_label {
+		font-size: 1.2rem;
+		font-weight: 500;
+	}
+	.from_item_desc {
+		font-size: 1rem;
+	}
+	&.isError {
+		border-color: red;
+	}
+}
+
+.warning_message {
+	color: red;
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	line-height: 1;
+	.warning_message_text {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		font-size: 0.8rem;
+	}
+}
+
+.text_type {
+	height: fit-content;
+	border: 1px solid;
+	border-top: 0px;
+	border-left: 0;
+	border-right: 0;
+	border-color: rgb(218, 220, 224);
+	padding: 4px 0px;
+	font-size: 1rem;
+
+	outline: none;
+}
+.long_text_type {
+	min-height: 144px;
+	resize: none;
+	border: 1px solid;
+	border-color: rgb(218, 220, 224);
+	outline: none;
+	padding: 10px;
+	font-size: 1rem;
+}

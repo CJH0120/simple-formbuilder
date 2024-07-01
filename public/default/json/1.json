@@ -1,0 +1,65 @@
+[
+	{
+		"id": "QNaFE1",
+		"isRequired": true,
+		"order": 1,
+		"q": {
+			"title": "CHECK BOX TYPE",
+			"desc": "체크박스 타입"
+		},
+		"a": {
+			"type": 3,
+			"option": ["test", "testing"]
+		}
+	},
+	{
+		"id": "2QNaFE1",
+		"isRequired": true,
+		"order": 0,
+		"q": {
+			"title": "DROP DOWN TYPE",
+			"desc": "드롭다운 타입"
+		},
+		"a": {
+			"type": 2,
+			"option": ["test", "testing"]
+		}
+	},
+	{
+		"id": "QNAFE2",
+		"order": 2,
+		"isRequired": true,
+		"q": {
+			"title": "Radio TYPE",
+			"desc": "라디오타입"
+		},
+		"a": {
+			"type": 4,
+			"option": ["option1", "option2"]
+		}
+	},
+	{
+		"id": "QNAFE22",
+		"order": 3,
+		"isRequired": true,
+		"q": {
+			"title": "Text_TYPE",
+			"desc": "단답형 답변"
+		},
+		"a": {
+			"type": 0
+		}
+	},
+	{
+		"id": "QNAF213213E22",
+		"order": 4,
+		"isRequired": true,
+		"q": {
+			"title": "LongText_TYPE",
+			"desc": "장문형 답변"
+		},
+		"a": {
+			"type": 1
+		}
+	}
+]

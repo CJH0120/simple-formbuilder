@@ -1,0 +1,17 @@
+.radio_group {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	.radio {
+		display: flex;
+		width: fit-content;
+		gap: 10px;
+		font-size: 1rem;
+		align-items: center;
+		cursor: pointer;
+		padding: 4px 0px;
+		.radio_text {
+			font-weight: 500;
+		}
+	}
+}

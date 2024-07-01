@@ -1,0 +1,215 @@
+.page {
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 auto;
+	min-height: 100vh;
+	align-items: center;
+	.container {
+		.button_submit {
+			height: 50px;
+			padding: 16px 32px;
+			width: fit-content;
+			margin: 10px auto;
+			border: none;
+			background-color: rgb(0, 123, 255);
+			color: #fff;
+			border-radius: 4px;
+			font-weight: 500;
+			font-size: 1.2rem;
+			cursor: pointer;
+		}
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		flex: 0 0 auto;
+		gap: 50px;
+		padding: 50px 15px;
+		max-width: 777px;
+		.header_wrap {
+			width: 100%;
+			display: flex;
+			flex: 0 0 auto;
+			.header_item {
+				flex: 0 0 auto;
+				display: flex;
+				width: 100%;
+				border: 1px solid rgb(218, 220, 224);
+				border-radius: 4px;
+				overflow: hidden;
+				.header_focus_wrap {
+					width: 6px;
+					height: 100%;
+					background-color: transparent;
+					&.focus {
+						background-color: rgb(0, 123, 255);
+					}
+				}
+				.header_content {
+					width: 100%;
+					display: flex;
+					flex-direction: column;
+					gap: 15px;
+					background: #fff;
+					padding: 16px;
+					.header_title_wrap {
+						width: 100%;
+						.header_title {
+							width: 100%;
+							height: 36px;
+							padding: 4px;
+						}
+					}
+					.header_desc_wrap {
+						width: 100%;
+						.header_desc {
+							width: 100%;
+							resize: none;
+							height: 66px;
+							padding: 4px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.item_form_wrap {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	.item_add_wrap {
+		width: 100%;
+		display: flex;
+		flex: 0 0 auto;
+		.item_add {
+			flex: 0 0 auto;
+			display: flex;
+			width: 100%;
+			border: 1px solid rgb(218, 220, 224);
+			border-radius: 4px;
+			overflow: hidden;
+			.item_add_focus_wrap {
+				width: 6px;
+				height: 100%;
+				background-color: transparent;
+				&.focus {
+					background-color: rgb(0, 123, 255);
+				}
+			}
+
+			.item_content {
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				gap: 15px;
+				background: #fff;
+				padding: 16px;
+				.item_content_head {
+					display: flex;
+					flex-direction: column;
+					gap: 20px;
+					.item_content_head_wrap {
+						display: flex;
+						width: 100%;
+						gap: 10px;
+						.item_content_head_input {
+							display: flex;
+							width: 100%;
+							border: 1px solid rgb(218, 220, 224);
+							padding: 4px;
+						}
+					}
+					.item_content_desc_wrap {
+						width: 100%;
+						.item_content_desc {
+							border: 1px solid rgb(218, 220, 224);
+							width: 100%;
+							height: 70px;
+							padding: 4px;
+							resize: none;
+							outline: none;
+						}
+					}
+				}
+				.item_options {
+					border: 1px solid rgb(218, 220, 224);
+					width: 100%;
+					display: flex;
+					padding: 4px;
+					.item_content_long_text {
+						resize: none;
+						width: 100%;
+						border: none;
+						outline: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+.edit_options {
+	width: 100%;
+	display: flex;
+	gap: 15px;
+	flex-direction: column;
+	.edit_option_content {
+		display: flex;
+		padding: 5px 0;
+
+		align-items: center;
+
+		gap: 10px;
+		justify-content: space-between;
+		.edit_option_content_remove {
+			cursor: pointer;
+		}
+		.edit_option_content_input_wrap {
+			display: flex;
+			width: 100%;
+			gap: 10px;
+			.edit_option_content_input {
+				width: 100%;
+				border: 1px solid rgb(218, 220, 224);
+				outline: none;
+				border-top: none;
+				border-left: none;
+				border-right: none;
+				width: 100%;
+				padding: 4px;
+				height: 30px;
+			}
+		}
+	}
+	.add_option {
+		background: transparent;
+		width: fit-content;
+		border: none;
+		cursor: pointer;
+		color: rgb(0, 123, 255);
+	}
+}
+
+.option_utils {
+	display: flex;
+	justify-content: flex-end;
+	padding: 4px;
+	gap: 20px;
+	.option_utils_icons {
+		cursor: pointer;
+		padding: 3px;
+		font-size: 1.5rem;
+	}
+	.option_utils_required {
+	}
+	.option_utils_required_label {
+		cursor: pointer;
+
+		font-size: 1rem;
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
+}
